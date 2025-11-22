@@ -1,0 +1,16 @@
+services:
+  student-application:
+    image: student-aws-docker-ec2-b:v1
+    container_name: b-student-application
+    ports:
+      - "9080:9080"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://firstdatabasepostgress.cj8cm6eo8fxz.ap-south-1.rds.amazonaws.com:5432/studentdb
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: mypassword12
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+    restart: always
+
+
+
+
