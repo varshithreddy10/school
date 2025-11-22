@@ -1,6 +1,6 @@
 services:
   student-application:
-    image: student-aws-docker-ec2-b:v1
+    image: varshithfirstimage:v1
     container_name: b-student-application
     ports:
       - "9080:9080"
