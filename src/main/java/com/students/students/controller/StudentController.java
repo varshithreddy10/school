@@ -23,7 +23,7 @@ public class StudentController {
     @GetMapping("/start")
     public String start()
     {
-        String message = " hello i am varshith reddy 94404520487";
+        String message = " hello i am varshith reddy ";
         return message;
     }
 
