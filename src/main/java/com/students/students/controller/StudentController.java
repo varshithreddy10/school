@@ -23,7 +23,7 @@ public class StudentController {
     @GetMapping("/start")
     public String start()
     {
-        String message = " this is the student management application written by the nallavelli varshith kumar reddy of mtech";
+        String message = " this is the student management application written by the nallavelli varshith kumar reddy ";
         return message;
     }
 
